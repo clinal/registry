@@ -1,6 +1,6 @@
 # Bundle Registry
 
-This repository is the source of truth for Cordiverse bundle metadata. Files in `bundles/` are validated and combined into `registry.json`; CI publishes that file to the `registry` branch as a single root commit.
+This repository is the source of truth for Cordiverse bundle metadata. Files in `bundles/` are validated and combined into `registry.json`; CI publishes that file only to the `registry` branch as a single root commit. The generated file is intentionally ignored on `main`.
 
 ## Bundle YAML spec
 
@@ -57,4 +57,4 @@ The generated document has this shape:
 }
 ```
 
-Bundles are ordered by source filename. The generated file must not be edited manually. Run `npm install`, then `npm run build`; use `npm run check` to verify it is current.
+Bundles are ordered by source filename. The generated file must not be edited or committed on `main`. Run `npm install`, then `npm run build` to create a local ignored copy; use `npm run check` to verify that copy is current.
