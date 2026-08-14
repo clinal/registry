@@ -1,0 +1,37 @@
+name: Build registry
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - bundles/**
+      - scripts/**
+      - package.json
+      - package-lock.json
+      - tsconfig.json
+      - .github/workflows/registry.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: cp registry.json "$RUNNER_TEMP/registry.json"
+      - name: Publish single-commit branch
+        run: |
+          git checkout --orphan registry-output
+          git rm -rf .
+          cp "$RUNNER_TEMP/registry.json" registry.json
+          git add registry.json
+          git -c user.name=github-actions -c user.email=github-actions@github.com commit -m "build registry"
+          git push --force origin HEAD:registry

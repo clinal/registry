@@ -1,0 +1,6 @@
+name: cordiverse/boilerplate
+description: Cordis application boilerplate
+versions:
+  - version: 0.6.1
+    url: https://github.com/cordiverse/boilerplate/releases/download/v0.6.1/boilerplate-v0.6.1-linux-amd64-node24.zip
+    hash: sha256:8181b96ea48ea61699335046c268f42cf540ab62eb6536be39369cef2ab87c82

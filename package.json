@@ -1,0 +1,15 @@
+{
+  "name": "bundle-registry",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsx scripts/build.ts",
+    "check": "tsx scripts/build.ts --check"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0",
+    "yaml": "^2.8.0"
+  }
+}
