@@ -1,6 +1,12 @@
 name: clinal/dsh-tool-android
 description: Android device tools for DeepSeek Harness
 versions:
+  - version: 0.0.6
+    artifacts:
+      - platform: linux
+        architecture: arm64
+        url: https://github.com/clinal/dsh-tool-android/releases/download/v0.0.6/dsh-tool-android-aarch64-0.0.6.tar.gz
+        hash: sha256:28aa4caa47faed214ccbdfd05b240f45869335cd4df9400c05ec54d551151f89
   - version: 0.0.5
     artifacts:
       - platform: linux
