@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "bundles": [
+    {
+      "name": "cordiverse/boilerplate",
+      "description": "Cordis application boilerplate",
+      "versions": [
+        {
+          "version": "0.6.1",
+          "artifacts": [
+            {
+              "platform": "darwin",
+              "architecture": "amd64",
+              "url": "https://github.com/cordiverse/boilerplate/releases/download/v0.6.1/boilerplate-v0.6.1-darwin-amd64-node24.zip",
+              "hash": "sha256:b5c61621989c599f5ebe20a5ce47ca11111c0067ff1f54eb31f40cff1526adc2"
+            },
+            {
+              "platform": "linux",
+              "architecture": "amd64",
+              "url": "https://github.com/cordiverse/boilerplate/releases/download/v0.6.1/boilerplate-v0.6.1-linux-amd64-node24.zip",
+              "hash": "sha256:8181b96ea48ea61699335046c268f42cf540ab62eb6536be39369cef2ab87c82"
+            },
+            {
+              "platform": "linux",
+              "architecture": "arm64",
+              "url": "https://github.com/cordiverse/boilerplate/releases/download/v0.6.1/boilerplate-v0.6.1-linux-arm64-node24.zip",
+              "hash": "sha256:4de3af9160043f14cc2fa5ccb5ffdbbfdd287b505a6300dcc44602730381c572"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "clinal/dsh-tool-android",
+      "description": "Android device tools for DeepSeek Harness",
+      "versions": [
+        {
+          "version": "0.0.8",
+          "artifacts": [
+            {
+              "platform": "linux",
+              "architecture": "arm64",
+              "url": "https://github.com/clinal/dsh-tool-android/releases/download/v0.0.8/dsh-tool-android-aarch64-0.0.8.tar.gz",
+              "hash": "sha256:6de6829455bbda75aed0d371a91e170c2126d707a8021e6bc49dac784d5a6a0f"
+            }
+          ]
+        },
+        {
+          "version": "0.0.7",
+          "artifacts": [
+            {
+              "platform": "linux",
+              "architecture": "arm64",
+              "url": "https://github.com/clinal/dsh-tool-android/releases/download/v0.0.7/dsh-tool-android-aarch64-0.0.7.tar.gz",
+              "hash": "sha256:8813828e5e9f31da65fecd5acb3b023702dae169753199df17dde71b3c51a6be"
+            }
+          ]
+        },
+        {
+          "version": "0.0.6",
+          "artifacts": [
+            {
+              "platform": "linux",
+              "architecture": "arm64",
+              "url": "https://github.com/clinal/dsh-tool-android/releases/download/v0.0.6/dsh-tool-android-aarch64-0.0.6.tar.gz",
+              "hash": "sha256:28aa4caa47faed214ccbdfd05b240f45869335cd4df9400c05ec54d551151f89"
+            }
+          ]
+        },
+        {
+          "version": "0.0.5",
+          "artifacts": [
+            {
+              "platform": "linux",
+              "architecture": "arm64",
+              "url": "https://github.com/clinal/dsh-tool-android/releases/download/v0.0.5/dsh-tool-android-aarch64-0.0.5.tar.gz",
+              "hash": "sha256:f88c52b3c924f11542c5340e23f9adfd8fb5b24120fd9dc8a8c9603dc70680b9"
+            }
+          ]
+        },
+        {
+          "version": "0.0.4",
+          "artifacts": [
+            {
+              "platform": "linux",
+              "architecture": "arm64",
+              "url": "https://github.com/clinal/dsh-tool-android/releases/download/v0.0.4/dsh-tool-android-aarch64-0.0.4.tar.gz",
+              "hash": "sha256:d631dc0d45d2ac0c51e5ce45c12b6cff49d508acfff5810aee72db9f9a48542f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "koishijs/boilerplate",
+      "description": "Koishi bot development boilerplate",
+      "versions": [
+        {
+          "version": "1.16.1",
+          "artifacts": [
+            {
+              "platform": "darwin",
+              "architecture": "amd64",
+              "url": "https://github.com/koishijs/boilerplate/releases/download/v1.16.1/boilerplate-v1.16.1-darwin-amd64-node20.zip",
+              "hash": "sha256:cd08882195ff017f2eba8d4b2a7e3decbbeb8a13b1aeac4cf48f7dc999887210"
+            },
+            {
+              "platform": "linux",
+              "architecture": "amd64",
+              "url": "https://github.com/koishijs/boilerplate/releases/download/v1.16.1/boilerplate-v1.16.1-linux-amd64-node20.zip",
+              "hash": "sha256:86c12f50c3dd193cc3cd8fecf9636a73926b6529323368787113f660aeb523b7"
+            },
+            {
+              "platform": "linux",
+              "architecture": "arm64",
+              "url": "https://github.com/koishijs/boilerplate/releases/download/v1.16.1/boilerplate-v1.16.1-linux-arm64-node20.zip",
+              "hash": "sha256:3fd60b1688411fcde6ee5ba214e54d09be70bfafcf7f79a0fab3b95312b1ca63"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
